@@ -1,0 +1,26 @@
+{
+  "name": "refract",
+  "version": "1.0.0",
+  "description": "A React-like library for building user interfaces",
+  "main": "dist/refract.cjs.js",
+  "module": "dist/refract.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c rollup.config.js -w"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "framework",
+    "javascript"
+  ],
+  "author": "ChayaCodes",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.25.0"
+  }
+}

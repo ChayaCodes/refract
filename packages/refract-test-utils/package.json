@@ -1,0 +1,23 @@
+{
+  "name": "refract-test-utils",
+  "version": "1.0.0",
+  "description": "Testing utilities for Refract",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "echo 'Build refract-test-utils'"
+  },
+  "keywords": [
+    "refract",
+    "testing",
+    "test-utils"
+  ],
+  "author": "ChayaCodes",
+  "license": "MIT",
+  "peerDependencies": {
+    "refract": "^1.0.0"
+  }
+}

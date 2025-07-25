@@ -1,0 +1,19 @@
+{
+  "name": "babel-preset-refract",
+  "version": "1.0.0",
+  "description": "Babel preset for Refract",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "echo 'Build babel-preset-refract'"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "refract"
+  ],
+  "author": "ChayaCodes",
+  "license": "MIT"
+}

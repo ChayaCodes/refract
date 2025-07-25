@@ -1,0 +1,24 @@
+{
+  "name": "refract-dom",
+  "version": "1.0.0",
+  "description": "DOM renderer for Refract",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "echo 'Build refract-dom'"
+  },
+  "keywords": [
+    "refract",
+    "dom",
+    "renderer"
+  ],
+  "author": "ChayaCodes",
+  "license": "MIT",
+  "peerDependencies": {
+    "refract": "^1.0.0"
+  }
+}
