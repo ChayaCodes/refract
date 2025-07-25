@@ -12,13 +12,17 @@
     "dev": "node scripts/dev-server.js",
     "release": "node scripts/release.js",
     "bootstrap": "lerna bootstrap",
-    "clean": "lerna clean --yes"
+    "clean": "lerna clean --yes",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@babel/core": "^7.22.0",
     "@babel/preset-env": "^7.22.0",
     "@babel/preset-typescript": "^7.22.0",
     "babel-jest": "^29.5.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.7.0",
     "lerna": "^7.0.0",

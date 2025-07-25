@@ -2,10 +2,10 @@ module.exports = {
   presets: [
     ['@babel/preset-env', {
       targets: {
-        node: '18'
-      }
+        node: '18',
+      },
     }],
-    '@babel/preset-typescript'
+    '@babel/preset-typescript',
   ],
   plugins: [],
   env: {
@@ -13,11 +13,11 @@ module.exports = {
       presets: [
         ['@babel/preset-env', {
           targets: {
-            node: 'current'
-          }
+            node: 'current',
+          },
         }],
-        '@babel/preset-typescript'
-      ]
-    }
-  }
+        '@babel/preset-typescript',
+      ],
+    },
+  },
 };

@@ -3,12 +3,12 @@ export default {
   output: [
     {
       file: 'packages/refract/dist/refract.cjs.js',
-      format: 'cjs'
+      format: 'cjs',
     },
     {
       file: 'packages/refract/dist/refract.esm.js',
-      format: 'esm'
-    }
+      format: 'esm',
+    },
   ],
-  external: ['react', 'react-dom']
+  external: ['react', 'react-dom'],
 };

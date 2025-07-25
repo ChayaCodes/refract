@@ -4,12 +4,12 @@ export default {
     {
       file: 'dist/refract.cjs.js',
       format: 'cjs',
-      exports: 'named'
+      exports: 'named',
     },
     {
       file: 'dist/refract.esm.js',
-      format: 'esm'
-    }
+      format: 'esm',
+    },
   ],
-  external: []
+  external: [],
 };
